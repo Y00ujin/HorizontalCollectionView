@@ -13,6 +13,9 @@
 		6A318FCF25D91707000D4C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A318FCD25D91707000D4C6F /* Main.storyboard */; };
 		6A318FD125D91708000D4C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A318FD025D91708000D4C6F /* Assets.xcassets */; };
 		6A318FD425D91708000D4C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A318FD225D91708000D4C6F /* LaunchScreen.storyboard */; };
+		6A318FDD25D91986000D4C6F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A318FDC25D91986000D4C6F /* CollectionViewCell.swift */; };
+		6A318FE025D92A4D000D4C6F /* CiecleViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A318FDF25D92A4D000D4C6F /* CiecleViewDesign.swift */; };
+		6A318FE325D92AAE000D4C6F /* CiecleImageViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A318FE225D92AAE000D4C6F /* CiecleImageViewDesign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		6A318FD025D91708000D4C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A318FD325D91708000D4C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A318FD525D91708000D4C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A318FDC25D91986000D4C6F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		6A318FDF25D92A4D000D4C6F /* CiecleViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiecleViewDesign.swift; sourceTree = "<group>"; };
+		6A318FE225D92AAE000D4C6F /* CiecleImageViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiecleImageViewDesign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				6A318FC725D91707000D4C6F /* AppDelegate.swift */,
 				6A318FC925D91707000D4C6F /* SceneDelegate.swift */,
 				6A318FCB25D91707000D4C6F /* ViewController.swift */,
+				6A318FDF25D92A4D000D4C6F /* CiecleViewDesign.swift */,
 				6A318FCD25D91707000D4C6F /* Main.storyboard */,
+				6A318FE225D92AAE000D4C6F /* CiecleImageViewDesign.swift */,
+				6A318FDC25D91986000D4C6F /* CollectionViewCell.swift */,
 				6A318FD025D91708000D4C6F /* Assets.xcassets */,
 				6A318FD225D91708000D4C6F /* LaunchScreen.storyboard */,
 				6A318FD525D91708000D4C6F /* Info.plist */,
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A318FCC25D91707000D4C6F /* ViewController.swift in Sources */,
+				6A318FE325D92AAE000D4C6F /* CiecleImageViewDesign.swift in Sources */,
+				6A318FE025D92A4D000D4C6F /* CiecleViewDesign.swift in Sources */,
 				6A318FC825D91707000D4C6F /* AppDelegate.swift in Sources */,
+				6A318FDD25D91986000D4C6F /* CollectionViewCell.swift in Sources */,
 				6A318FCA25D91707000D4C6F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
